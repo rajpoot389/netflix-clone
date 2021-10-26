@@ -1,6 +1,7 @@
 * {
   margin: 0;
   /* width: 100%; */
+  font-family: "PT Serif", serif;
 }
 .app {
   background-color: #111;

@@ -31,8 +31,9 @@ const Banner = () => {
             <div className="banner_contant">
                 <div className="banner_tittle"><h1 className="banner_title">{movie.name || movie.original_name}</h1></div>
                 <div banner_button>
-                    <button type="button" className="btn btn-outline-primary mx-2 my-3">Primary</button>
-                    <button type="button" className="btn btn-outline-primary my-3">Primary</button>
+                    <button type="button" className="btn btn-outline-secondary mx-2  my-3" style={{ width: "82px", color: "white", border: "1px solid white", backgroundColor: "rgba(0,0,0,0.5)" }}>Play</button>
+                    <button type="button" className="btn btn-outline-primary my-3" style={{ width: "82px", color: "white", border: "1px solid white", backgroundColor: "rgba(0,0,0,0.6)" }}>My List</button>
+
                 </div>
                 <div className={isOverChar ? "newDiscription" : "banner_discription"}><p>{isOverChar ? newDiscription : discription}</p></div>
             </div>
