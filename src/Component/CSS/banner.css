@@ -1,0 +1,49 @@
+.banner {
+  height: 450px;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+.banner_contant {
+  color: white;
+  margin-left: 17px;
+  padding-top: 137px;
+}
+.banner_discription {
+  width: 45%;
+}
+.banner_discription p {
+  font-weight: 700;
+}
+.newDiscription {
+  width: 45%;
+  font-weight: 700;
+}
+.blurness {
+  height: 7rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
+
+@media screen and (min-width: 1200px) {
+  .blurness {
+    margin-top: 55px;
+  }
+}
+@media screen and (max-width: 476px) {
+  .banner {
+    height: 500px;
+  }
+  .blurness {
+    height: 4rem;
+  }
+  .banner_discription {
+    width: 70%;
+  }
+  .banner_contant {
+    padding-top: 190px;
+  }
+}
